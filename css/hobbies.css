@@ -1,0 +1,26 @@
+/*Sección Hobbies*/
+
+section.hobbies{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(36, 113, 163);
+    padding: 4% 0;
+}
+.hobbies__line{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.hobbies__img-img{
+    width: 60px;
+}
+.hobbies__box{
+    background-color: rgb(125, 60, 152);
+    border-radius: 20px;
+    margin: 5px;
+    box-shadow: 10px 10px 10px rgb(158, 131, 192);
+}
+.hobbies__box-ul{
+    padding-right: 40px;
+}

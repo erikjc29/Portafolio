@@ -1,0 +1,26 @@
+/* skills */
+section.skills{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(46, 134, 193);
+    padding: 3% 0;
+}
+.skills__line{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.skills__box{
+    background-color: rgb(125, 60, 152);
+    border-radius: 20px;
+    margin: 5px;
+    box-shadow: 10px 10px 10px rgb(158, 131, 192);
+}
+.skills__box-ul{
+    padding-right: 40px;
+    
+}
+.skills__img-ico{
+    width: 60px;
+}

@@ -1,0 +1,28 @@
+/*Sección Menu*/
+.menu{
+    font-size: 18px;
+}
+.menu__title{
+    color: #F5F5F5;
+}
+section.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(36, 113, 163);
+    flex-wrap: wrap;
+}
+.menu__header{
+    display: flex;
+    align-items: center;
+}
+.menu__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu__list__item{
+    margin: auto 0 auto 20px;
+}
+.menu__list__item-item:hover{
+    transform: scale(5.15);
+    color: #F5F5F5;
+}

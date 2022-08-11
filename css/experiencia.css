@@ -1,0 +1,62 @@
+/* experiencia*/
+
+section.experience{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(36, 113, 163) ;
+}
+.experience__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+
+.experiencia__botao--repo{
+    border: none;
+    padding: 4% 4%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(175, 122, 197 ) ;
+    margin: 3px;
+    font-size: 18px;
+}
+.experience__botao--demo{
+    border: none;
+    padding: 4% 4%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(175, 122, 197 ) ;
+    margin: 3px;
+    font-size: 18px;
+}
+.experience__info{
+    background-color: rgb(27, 79, 114);
+    
+    border-radius: 30px;
+    /* border:solid 5px rgb(125, 60, 152); */
+    color: #F5F5F5;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #999;
+    margin: 10px;
+}
+.experience__botao--demo:hover{
+    color: #F5F5F5;
+    transform: scale(1.1);
+}
+.experiencia__botao--repo:hover{
+    color: #F5F5F5;
+    transform: scale(1.1);
+}
+.experience__img{
+    border-radius: 30px;
+    border:solid 5px rgb(125, 60, 152);
+    width: 70%;
+}
+.experience__title{
+    width: 200px;
+    text-align: center;
+}
