@@ -8,17 +8,20 @@ display: flex;
 justify-content: space-around;
 border-top:dashed #000000 5px;
 flex-wrap: wrap;
-border: solid 3px #000000 ;
+
 }
 .formcontato--esquerda{
    width: 40%; 
+   margin: auto;
 }
 
 .formcontato__img{
 width: 80%;
 }
 .formcontato__text{
-    width: 500px;
+    width: 600px;
+    border: solid 3px;
+    margin: 10px;
 }
 
 .formcontato__form{
@@ -45,7 +48,7 @@ text-align: initial;
     border-radius: 10px;
     font-size: 18px;
     resize: none;
-    max-width: 320px;
+    max-width: 80%;
 }
 .formcontato__input{
     text-align: initial;
@@ -59,27 +62,20 @@ text-align: initial;
     border: none;
     font-size: 18px;
     border-radius: 10px;
+    
 } 
 
 .formcontato__botao{
-    width: 400px;
-    height: 30px;
-    margin: 10px 10px;
-  
-    border: none;
-    background-color: aliceblue;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: rgb(175, 122, 197 ) ;
-    margin: 3px;
-    font-size: 18px;
-    
-    
-}
-
-.formcontato__botao:hover{
-    
-    transform: scale(1.1);
+    background-color: #000000;
     color: #F5F5F5;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.formcontato__botao:hover{
+    background-color: #F5F5F5;
+    transform: scale(1.1);
+    color:#000000 ;
     
 }
